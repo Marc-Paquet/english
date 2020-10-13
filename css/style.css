@@ -1,0 +1,115 @@
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(223, 237, 243);
+}
+
+header {
+  background-color: rgb(6, 7, 70);
+}
+
+h1 {
+  padding: 1rem 0;
+  text-align: center;
+  color: rgb(223, 237, 243);
+}
+
+.succes {
+  background-color: green;
+  color: rgb(211, 238, 211);
+}
+
+.echec {
+  background-color: red;
+  color: rgb(245, 216, 216);
+}
+
+.echec,
+.succes {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+#score,
+#nbQuestion {
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.light {
+  font-weight: 300;
+}
+
+main {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type:none;
+  background-image:url("../img/united-kingdom-flag-button-round-xs.png");
+  background-repeat:no-repeat;
+  background-position:0% 65%;
+  padding-left:40px;
+  margin: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 7, 70);
+}
+
+table {
+  margin: 1rem auto;
+}
+
+td {
+  min-width: 200px;
+  padding: .2rem 0;
+  border-bottom: rgb(6, 7, 70) 1px dashed;
+}
+
+.frenchWord {
+  font-weight: 300;
+}
+.englishWord {
+  font-weight: 500;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+}
+button {
+  background-color: rgb(6, 7, 70);
+  color: rgb(223, 237, 243);
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+#proposition {
+  margin: 1rem auto;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+
+#test {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
